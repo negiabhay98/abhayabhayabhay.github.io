@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 10px;
+}
+
+img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.LandingSection {
+    background-image: url(doge-600.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+.ClassTwo {
+    text-align: left;
+}
+
+#header {
+    font-size: 180px;
+}
