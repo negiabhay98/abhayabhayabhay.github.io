@@ -16,8 +16,39 @@ html, body {
     font-size: 360px;
 }
 
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: black;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: lightblue;
+}
+
 .navbar {
     font-size: 60px;
+    text-decoration-color: aliceblue;
+}
+
+#navbar2 {
+    font-size: 60px;
+    color: skyblue;
+    a:link {
+        color: aliceblue;
+    }
+}
+
+.abouttext{
+    font-size: 60px;
+    color: floralwhite;
 }
 
 #bgvid {
