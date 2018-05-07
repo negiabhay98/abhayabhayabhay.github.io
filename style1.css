@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.indexLandingSection {
+    background-image: url(about/drownbluewaves1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+.aboutLandingSection {
+    background-image: url(about/drownbluewaves1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+.bibLandingSection {
+    background-image: url(bibliography/DSCN4253.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+.musicLandingSection {
+    background-image: url(music/DSCN4252.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+.projectsLandingSection {
+    background-image: url(projects/DSCN3481.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-align: center;
+}
+
+#header {
+    font-size: 360px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: black;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: lightblue;
+}
+
+/*
+try this
+-- Change background on mouse-over --
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+*/
+
+.navbar {
+    text-align: center;
+    
+    position: fixed;    
+    text-align: center;
+    
+    /*
+    align-self: center;
+    ??? how to fix navbar but have it centered
+    */
+    top: 10px;
+    font-size: 40px;
+    text-decoration-color: aliceblue;
+}
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    float:none;
+    display:inline-block;
+    text-align: center;
+}
+
+#navbar2 {
+    font-size: 40px;
+    color: skyblue;
+    a:link {
+        color: aliceblue;
+    }
+}
+
+.abouttext{
+    font-size: 60px;
+    color: floralwhite;
+}
+
+.bibtext {
+    font-size: 40px;
+    color: floralwhite;
+}
+
+.musictext {
+    font-size: 30px;
+    color: floralwhite;
+    a:link {
+        color: aliceblue;
+    }
+}
+
+#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(drownbluewaves1.jpg) no-repeat;
+    background-size: contain; 
+}
