@@ -1,0 +1,74 @@
+*{margin:0; padding:0}
+
+section{width:100%; float:left; height:100vh;}
+
+nav{width: 100%; position: fixed; z-index: 1; top:24px;}
+
+ul{width:fit-content; margin:auto; list-style:none;}
+
+ul li{float:left; margin-left:30px; padding-left:15px}
+
+ul li a{color: white; text-decoration: none;}
+
+ul li a:hover{text-decoration:underline;}
+
+h1 {color: white; text-align: center; margin-top: 64px;}
+
+/* PAGE A STUFF */
+#pageA {
+    background-color: teal;
+/*    background-image: url(DSC_0304_edited.jpg);*/
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#biodiv{position:relative;top:120px;left:40px;}
+#biotext{}
+#portrait{position:relative; right:64px;}
+
+/* PAGE B STUFF */
+#pageB {
+    background-color: salmon;
+    background-image: url(drownbluewaves1.jpg);
+    background-size: cover;
+/*    background-position: center;*/
+
+}
+
+/* PAGE C STUFF */
+#pageC {
+    background-color: palevioletred;
+    background-image: url(Windows%20Photo%20Gallery%20Wallpaper%20-%20Copy.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* defined classes */
+.outterdiv {
+    width: 100%;
+    overflow: hidden;
+    border-style:dashed;
+}
+
+.leftdiv {
+    float: left;
+    width: 50vh;
+    overflow:hidden;
+    text-align: left;
+    border-style:dotted;
+}
+
+.rightdiv {
+    float:right;
+    width: 50vh;
+    overflow:hidden;
+    text-align:right;
+    border-style:dotted;
+}
+
+.img_responsive {
+    display: block;
+/*    max-width: 100%;*/
+/*    height: auto;*/
+}
