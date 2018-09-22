@@ -12,37 +12,25 @@ ul li a{color: white; text-decoration: none;}
 
 ul li a:hover{text-decoration:underline;}
 
-h1 {color: white; text-align: center; margin-top: 64px;}
+h1 {color: white; text-align: center; margin-top: 8vh;}
 
 /* PAGE A STUFF */
 #pageA {
     background-color: teal;
-/*    background-image: url(DSC_0304_edited.jpg);*/
+    background-image: url(ap-space-shuttle-last-stop-16_9_edited.jpg);
     background-size: cover;
     background-position: center;
     color: white;
 }
-.bio{position:relative;top:120px;left:40px;}
-#bio{text-align: center;}  
-#portrait{position:relative; height:45vh;display:block;margin-right:auto;margin-left:auto;text-align:center;}
-#note{text-align:center;}
-#resume{text-decoration-color: white; color:white;}
+#bio{position: relative; width: 20vw;display:block; margin-right: 8vw; margin-left:auto;text-align:center; font-size: 18px; color:white;}  
+#portrait{position:relative; height:20vw;display:block;margin-right:8vw;margin-left:auto;margin-top:10vh;text-align:center;}
+#note{display:block; width: 20vw; margin-right:8vw; margin-left:auto; text-align: right; font-size: 20px; padding-top: 4vh;}
+#note2{display:block; width: 20vw; margin-left:5vw; margin-right:auto; }
+#resume{text-decoration-color: white; color:white;margin-right:8vw;font-size:20px;}
+
 
 /* PAGE B STUFF */
-
 #pageB {
-    background-color: salmon;
-    background-image: url(drownbluewaves1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#calendar{text-align:center;}
-/*#responsiveCal {position: relative; text-align: center; height: 0; overflow: hidden;}*/
-/*.responsiveCal iframe {position: absolute; top:0; left: 0; width: 100%; height: 100%;}*/
-
-
-/* PAGE C STUFF */
-#pageC {
     background-color: palevioletred;
     background-image: url(Windows%20Photo%20Gallery%20Wallpaper%20-%20Copy.jpg);
     background-size: cover;
@@ -50,6 +38,9 @@ h1 {color: white; text-align: center; margin-top: 64px;}
 }
 #projectslist{text-align: center; color:white; padding-top:10vh;}
 #classeslist{text-align:center; color:white; padding-top:10vh;}
+#aeroacoustics_icon{height:20vw; padding-left: 10vw; padding-top:10vh;}
+#SSS_icon{height:20vw;padding-left: 10vw;padding-top:10vh;}
+#lab9195_icon{height:20vw;padding-left: 10vw;padding-top:10vh;}
 
 /* defined classes */
 .wrapper {
@@ -58,9 +49,34 @@ h1 {color: white; text-align: center; margin-top: 64px;}
 /*    border-style:dashed;*/
 }
 
+/* PAGE C STUFF */
+#pageC {
+    background-color: salmon;
+    background-image: url(drownbluewaves1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*#calendar{text-align:center;}*/
+/*#responsiveCal {position: relative; text-align: center; height: 0; overflow: hidden;}*/
+/*.responsiveCal iframe {position: absolute; top:0; left: 0; width: 100%; height: 100%;}*/
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 80%;
+  padding-bottom: 45%;
+}
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 12%;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* iPad Size Screen */
 @media only screen and (min-width: 768px) {
-
+    
 }
 
 @media only screen and (min-width:1000px) {
